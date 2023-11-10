@@ -1,0 +1,27 @@
+{
+  "name": "web-xstate-presentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/joaojosepedrini/web-xstate-presentation",
+  "author": "João José Pedrini <joaojose.pedrini@cloudwalk.io>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@xstate/inspect": "^0.8.0",
+    "@xstate/react": "^3.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "xstate": "^4.38.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "vite": "^4.5.0"
+  }
+}
